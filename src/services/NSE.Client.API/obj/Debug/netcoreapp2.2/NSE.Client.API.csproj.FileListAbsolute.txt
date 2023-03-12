@@ -1,0 +1,5 @@
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Client.API\obj\Debug\netcoreapp2.2\NSE.Client.API.csproj.AssemblyReference.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Client.API\obj\Debug\netcoreapp2.2\NSE.Client.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Client.API\obj\Debug\netcoreapp2.2\NSE.Client.API.AssemblyInfoInputs.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Client.API\obj\Debug\netcoreapp2.2\NSE.Client.API.AssemblyInfo.cs
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Client.API\obj\Debug\netcoreapp2.2\NSE.Client.API.csproj.CoreCompileInputs.cache

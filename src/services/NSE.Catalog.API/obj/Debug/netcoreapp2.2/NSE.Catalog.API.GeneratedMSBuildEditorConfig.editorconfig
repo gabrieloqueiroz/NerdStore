@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.Catalog.API
+build_property.ProjectDir = D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Catalog.API\

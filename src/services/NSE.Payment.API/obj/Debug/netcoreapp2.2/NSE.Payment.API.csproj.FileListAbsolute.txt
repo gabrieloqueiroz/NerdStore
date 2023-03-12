@@ -1,0 +1,5 @@
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Payment.API\obj\Debug\netcoreapp2.2\NSE.Payment.API.csproj.AssemblyReference.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Payment.API\obj\Debug\netcoreapp2.2\NSE.Payment.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Payment.API\obj\Debug\netcoreapp2.2\NSE.Payment.API.AssemblyInfoInputs.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Payment.API\obj\Debug\netcoreapp2.2\NSE.Payment.API.AssemblyInfo.cs
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Payment.API\obj\Debug\netcoreapp2.2\NSE.Payment.API.csproj.CoreCompileInputs.cache

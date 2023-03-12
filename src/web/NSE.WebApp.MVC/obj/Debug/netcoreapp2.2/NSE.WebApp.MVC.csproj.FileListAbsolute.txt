@@ -1,0 +1,5 @@
+D:\estudos\.Net\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp2.2\NSE.WebApp.MVC.csproj.AssemblyReference.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp2.2\NSE.WebApp.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\estudos\.Net\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp2.2\NSE.WebApp.MVC.AssemblyInfoInputs.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp2.2\NSE.WebApp.MVC.AssemblyInfo.cs
+D:\estudos\.Net\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp2.2\NSE.WebApp.MVC.csproj.CoreCompileInputs.cache

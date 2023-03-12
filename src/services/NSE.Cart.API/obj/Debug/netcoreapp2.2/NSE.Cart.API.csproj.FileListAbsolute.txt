@@ -1,0 +1,5 @@
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Cart.API\obj\Debug\netcoreapp2.2\NSE.Cart.API.csproj.AssemblyReference.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Cart.API\obj\Debug\netcoreapp2.2\NSE.Cart.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Cart.API\obj\Debug\netcoreapp2.2\NSE.Cart.API.AssemblyInfoInputs.cache
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Cart.API\obj\Debug\netcoreapp2.2\NSE.Cart.API.AssemblyInfo.cs
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Cart.API\obj\Debug\netcoreapp2.2\NSE.Cart.API.csproj.CoreCompileInputs.cache
