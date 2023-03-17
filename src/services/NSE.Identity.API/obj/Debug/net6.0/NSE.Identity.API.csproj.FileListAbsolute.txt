@@ -144,3 +144,7 @@ D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\obj\Debug\net6
 D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\obj\Debug\net6.0\NSE.Identity.API.csproj.CopyComplete
 D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\obj\Debug\net6.0\NSE.Identity.API.genruntimeconfig.cache
 D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\obj\Debug\net6.0\ref\NSE.Identity.API.dll
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\estudos\.Net\NerdStoreEnterprise\src\services\NSE.Identity.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

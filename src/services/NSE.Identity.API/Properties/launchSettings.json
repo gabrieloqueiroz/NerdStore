@@ -1,12 +1,12 @@
 {
   "profiles": {
-    "NSE.authetication.API": {
+    "NSE.Identity.API": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "nse/identity/swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7043;http://localhost:5096"
     },
     "IIS Express": {
