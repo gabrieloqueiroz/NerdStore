@@ -8,12 +8,12 @@ using NSE.Identity.API.Model;
 using System.Security.Claims;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
+using System.Runtime.InteropServices;
 
 namespace NSE.Identity.API.Controllers
 {
     [Route("api/identity")]
-    [ApiController]
-    public class IdentityController : Controller
+    public class IdentityController : MainController
     {
 
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -32,7 +32,7 @@ namespace NSE.Identity.API.Controllers
         [HttpPost("newRegister")]
         public async Task<ActionResult> Register(UserRegister userRegister)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             IdentityUser user = new IdentityUser
             {
@@ -45,17 +45,22 @@ namespace NSE.Identity.API.Controllers
 
             if (result.Succeeded)
             {
-                await _signInManager.SignInAsync(user, false);
-                return Ok(await GenerateJwt(userRegister.Email));
+                //await _signInManager.SignInAsync(user, false);
+                return CustomResponse(await GenerateJwt(userRegister.Email));
             }
 
-            return BadRequest();
+            foreach(var error in result.Errors)
+            {
+                AddErrorProcessor(error.Description);
+            }
+
+            return CustomResponse();
         }
 
         [HttpPost("authenticate")]
         public async Task<ActionResult> Login(UserLogin userLogin)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = await _signInManager.PasswordSignInAsync(
                 userLogin.Email,
@@ -63,12 +68,17 @@ namespace NSE.Identity.API.Controllers
                 false,
                 true);
 
-            if (result.Succeeded)
+            if (result.Succeeded) return CustomResponse(await GenerateJwt(userLogin.Email));
+
+
+            if (result.IsLockedOut)
             {
-                return Ok(await GenerateJwt(userLogin.Email));
+                AddErrorProcessor("User blocked for exceeding attempts");
+                return CustomResponse();
             }
 
-            return BadRequest();
+            AddErrorProcessor("Wrong username or password");
+            return CustomResponse();
         }
 
         private async Task<UserLoginResponse> GenerateJwt(string email)
